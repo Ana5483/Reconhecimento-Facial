@@ -1,0 +1,16 @@
+# Config/estado da sessao do Claude Code (repo proprio)
+.claude/
+
+# Artefatos transitorios do Python
+__pycache__/
+*.pyc
+
+# Arquivos temporarios gerados em runtime
+_preview_*.png
+_estado_*.png
+_fluxo_painel.png
+_nitidez_*.png
+database/historico_*.csv
+
+# Log de runtime (muda a cada execucao -- nao versionar)
+database/logs/
